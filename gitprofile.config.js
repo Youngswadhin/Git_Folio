@@ -1,4 +1,5 @@
 // gitprofile.config.js
+// import spacefolio from './src/assets/SPACEFOLIO.png'
 const config = {
   github: {
     username: 'Youngswadhin', // Your GitHub org/user name. (Required)
@@ -14,7 +15,7 @@ const config = {
     twitter: '',
     mastodon: '',
     facebook: '',
-    instagram: '',
+    // instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
@@ -108,18 +109,25 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: '',
+      title: 'INFINITE IMAGE APP',
       description:
-        '',
-      imageUrl: '',
-      link: '',
+        'An infinite image scrolling webpage automatically loads and displays new images as the user scrolls down, providing a seamless browsing experience without a fixed endpoint.',
+      imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      link: 'https://brain-op-technologies-login.vercel.app/',
     },
     {
-      title: '',
+      title: 'THE LIBABRY',
       description:
-        '',
-      imageUrl: '',
-      link: '',
+        'A library webpage is an online gateway to library resources, offering access to catalogs, databases, and services like account management and research guides.',
+      imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      link: 'https://swadhin-library.netlify.app/',
+    },
+    {
+      title: 'THE SPACEFOLIO',
+      description:
+        'Spacefolio: A dynamic portfolio website showcasing space-themed illustrations for a captivating visual experience.',
+      imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      link: 'https://space-folio-swadhin.vercel.app/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
@@ -197,11 +205,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
- // footer: `Made with <a 
- //     class="text-primary" href="https://github.com/arifszn/gitprofile"
-  //    target="_blank"
- //     rel="noreferrer"
- //   >GitProfile</a> and ❤️`,
+ footer: `Made with <a 
+     class="text-primary" href="https://github.com/youngswadhin"
+     target="_blank"
+     rel="noreferrer"
+   >GitProfile</a> and ❤️`,
 };
 
 export default config;
