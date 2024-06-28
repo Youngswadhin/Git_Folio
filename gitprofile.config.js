@@ -25,7 +25,7 @@ const config = {
     skype: '',
     telegram: '',
     website: '',
-    phone: '+91-8117002071',
+    phone: '+91-811700XXXX',
     email: 'swadhinmuduli07@gmail.com',
   },
   resume: {
