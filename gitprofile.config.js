@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'swadhin',
+    linkedin: 'Swadhin Kuamr Muduli',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1yMC6Z5wB90Ya28YgNShsNWa4nNsOdKg-/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1vy29OCWANIG6L0ZaC9nmjzmLnbmzajL_/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
