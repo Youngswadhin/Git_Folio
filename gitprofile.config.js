@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'Swadhin Kuamr Muduli',
+    linkedin: 'swadhin-kumar-muduli',
     twitter: '',
     mastodon: '',
     facebook: '',
@@ -129,11 +129,18 @@ const config = {
       imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
       link: 'https://space-folio-swadhin.vercel.app/',
     },
+    {
+      title: 'STICKY NOTES',
+      description:
+        'A sticky notes webpage for daily tasks allows users to create, edit, and organize color-coded notes, helping to manage tasks efficiently with a simple, intuitive interface.',
+      imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+      link: 'https://sticky-notes-swadhin.vercel.app/',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'LinkedIn', // medium | dev
-    username: 'swadhin kumar muduli', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 4, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
