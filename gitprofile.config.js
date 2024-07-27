@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      './src/assets/SWADHIN-MUDULI-RESUME.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1DO6zfPQEI5-7NeGKGwdeymJr7JpkfBwO/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
