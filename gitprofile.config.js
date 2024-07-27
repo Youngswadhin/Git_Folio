@@ -1,5 +1,5 @@
 // gitprofile.config.js
-// import spacefolio from './src/assets/SPACEFOLIO.png'
+// import RESUME from './src/assets/SWADHIN-MUDULI-RESUME.pdf';
 const config = {
   github: {
     username: 'Youngswadhin', // Your GitHub org/user name. (Required)
@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1vy29OCWANIG6L0ZaC9nmjzmLnbmzajL_/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      './src/assets/SWADHIN-MUDULI-RESUME.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
